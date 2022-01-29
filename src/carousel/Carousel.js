@@ -84,11 +84,13 @@ const Carousel = ({ children, itemsShown = 1 }) => {
   };
 
   return (
-    <div className="carousel">
+    <div
+      className="carousel"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+    >
       <div
         className="carousel_inner"
-        onTouchStart={handleTouchStart}
-        onTouchMove={handleTouchMove}
         onTransitionEnd={() => {
           setButtonsDisabled(false);
           if (
