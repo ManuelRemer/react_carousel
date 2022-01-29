@@ -54,7 +54,7 @@ const Carousel = ({ children, itemsShown = 1 }) => {
   const handleTouchStart = (e) => {
     const touchDown = e.touches[0].clientX;
     setTouchPosition(touchDown);
-    console.log("down");
+    console.log("down + down");
   };
 
   const handleTouchMove = (e) => {

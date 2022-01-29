@@ -27,3 +27,9 @@
   position: absolute;
   top: 50%;
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .carousel__navigation {
+    display: none;
+  }
+}
