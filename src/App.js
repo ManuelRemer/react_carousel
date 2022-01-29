@@ -1,5 +1,4 @@
 import Carousel, { CarouselItem } from "./carousel/Carousel";
-import "./App.css";
 
 export default function App() {
   return (
