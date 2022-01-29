@@ -1,0 +1,32 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel_inner {
+  /* what is this?*/
+  white-space: nowrap;
+}
+
+.carousel_inner__active {
+}
+
+.carousel__item {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.carousel__navigation {
+  margin: 0 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+}
