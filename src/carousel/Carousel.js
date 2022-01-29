@@ -70,12 +70,12 @@ const Carousel = ({ children, itemsShown = 1 }) => {
 
     console.log(diff);
 
-    if (diff > 5) {
+    if (diff > 1) {
       console.log("right");
       updateIndex(activeIndex + 1);
     }
 
-    if (diff < -5) {
+    if (diff < -1) {
       console.log("left");
       updateIndex(activeIndex - 1);
     }
