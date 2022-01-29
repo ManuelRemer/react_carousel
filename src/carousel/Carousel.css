@@ -8,9 +8,6 @@
   white-space: nowrap;
 }
 
-.carousel_inner__active {
-}
-
 .carousel__item {
   position: relative;
   z-index: 1;

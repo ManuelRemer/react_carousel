@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, cloneElement } from "react";
-import { useItems } from "../hooks/useItems";
+
 import "./Carousel.css";
 
 const Carousel = ({ children, itemsShown = 1 }) => {
